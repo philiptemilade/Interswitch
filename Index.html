@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar top -->
+    <nav class="navbar navbar-expand-lg  fixed-top" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/interswitch_logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" aria-current="page" href="#">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Overview </a></li>
+                                <li><a class="dropdown-item" href="#">Our Band</a></li>
+                                <li><a class="dropdown-item" href="#">Leadership</a></li>
+                                <li><a class="dropdown-item" href="#">Cooperate Governance</a></li>
+                                <li><a class="dropdown-item" href="#">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">What We Do</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                        aria-expanded="false">What We Do</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                        aria-expanded="false">What We Do</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                        aria-expanded="false">What We Do</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                        aria-expanded="false">What We Do</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Finacial Inclusion
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Cooperate Responsiblity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">News & Insights</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <Image src="https://interswitchgroup.com/assets/images/home/nigeria.png" alt=""
+                                    id="flag" class="rounded me-2" />
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">
+                                        <Image src="https://interswitchgroup.com/assets/images/home/kenya.png"
+                                            alt="Kenya flag" id="flag" class="rounded me-2" />
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <Image src="https://interswitchgroup.com/assets/images/home/kenya.png"
+                                            alt="Kenya flag" id="flag" class="rounded me-2" />
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar bottom -->
+
+
+    <marquee behavior="" direction="up" class="text-center">interswitch drive efficient heaalthcare, enter strategic
+        partnership to develop blockchain <a href="">Read More</a></marquee>
+
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <h1>The Gateway to Africa's Payment Ecosystem</h1>
+                        <p>We create and sustain a payment ecosystem that helps commerce evolve,
+                            businesses grow and individuals thrive.</p>
+                    </div>
+                    <a href="#" class="btn-one">Learn More <i class="bi bi-arrow-down-circle-fill"></i></a>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/video-min.jpg" class="feature-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+
+        <div class="container">
+            <div class="row-2">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h3>Who we are</h3>
+                        <h2>We are an Africa-oriented technology-driven
+                            company focused on payments</h2>
+                        <p>Our diversified proposition delivers value across the board</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="cards">
+                <div class="col-12 col-md-6 col-lg-3" id="card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="images/brand_isw.webp" alt="">
+                            <h6 class="card-text">Leverage ourTechnology Expertiseto Grow Your Business</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="https://www.interswitchgroup.com/assets/images/home/qtb_isw.png" alt="">
+                            <h6 class="card-text">Make Everyday Payments with Ease</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="https://www.interswitchgroup.com/assets/images/home/verve_isw.png" alt="">
+                            <h6 class="card-text">Explore our Suite ofCards & Digital Tokens</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="https://www.interswitchgroup.com/assets/images/home/quickteller_isw.png" alt="">
+                            <h6 class="card-text">Integrate Digital Payment and Get anOnline Store</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-1">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="feature-box-1">
+                            <h3>Pushing the boundaries of innovation to deliver payment solutions that enable commerce
+                                across Africa</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="feature-box-1">
+                            <p>Bespoke payment solutions for your modern lifestyle, business collections, disbursements
+                                and payment processing</p>
+                                <button class="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3" id="card-1">
+                    <div class="card text-center">
+                        <div class="card-body-1">
+
+                            <img src="https://interswitchgroup.com/assets/images/home/webIcons-04.svg" alt="">
+                            <h1>8000+</h1>
+                            <h6 class="card-text">Billers aggregated on the Quickteller platform</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="card-1">
+                    <div class="card text-center">
+                        <div class="card-body-1">
+                            <img src="https://interswitchgroup.com/assets/images/home/webIcons-04.svg" alt="">
+                            <h1>41000+</h1>
+                            <h6 class="card-text">Quickteller Paypoint agents enabled across Nigeria</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="card-1">
+                    <div class="card text-center">
+                        <div class="card-body-1">
+                            <img src="https://interswitchgroup.com/assets/images/home/webIcons-14.svg" alt="">
+                            <h1>190,000+</h1>
+                            <h6 class="card-text">Active businesses transacting daily</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="card-1">
+                    <div class="card text-center">
+                        <div class="card-body-1">
+                            <img src="https://interswitchgroup.com/assets/images/home/webIcons-12.svg" alt="">
+                            <h1>50,000,000+</h1>
+                            <h6 class="card-text">Cards activated on the Verve network</h6>
+                            <a href="" class="btn-one"> Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- unmoved img -->
+    <section>
+        <div>
+            <div class="stickyimg">
+                <div class="hero-text">
+                    <h1 class="hero-title">Africa's leading corporate organisations depend on us to power their
+                        payments.</h1>
+                    <p class="hero-subtitle">From massive industries to small businesses, our turnkey payment solutions
+                        are suitable for every business size or type.</p>
+                </div>
+
+                <div class="hero-secondary">
+                    <p class="hero-secondary-text">A big part of what we do is to break down barriers, ensuring that
+                        businesses are able to serve their customers how they want to, when they want to.</p>
+                </div>
+                <div class="container-2">
+    
+                    <div class="hero-text-2">
+                        <h1 class="hero-title">Almost any bill payment is possible on our digital payment platform, Quickteller.</h1>
+                        <p class="hero-subtitle">Beyond payments, our users enjoy an easy connection to the activities that power their modern lifestyle,
+                             such as flights, events, and global shopping.</p>
+                    </div>
+    
+                    <div class="hero-secondary-2">
+                        <p class="hero-secondary-text">Our widely accepted card scheme connects everyday
+                             people to easy payment options that are accessible within and beyond the continent.</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- unmoved img -->
+
+
+    <section>
+        <div class="mx-auto" id="sect">
+            <div class="text-center">
+                <img src="https://interswitchgroup.com/assets/images/home/idea.svg" alt="">
+                <h2>We create solutions that enable <br> individuals and communities <br> prosper across Africa.</h2>
+                <p>We see an Africa where digital payments are a seamless part of <br> everyday life</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid " id="dance">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="badge-container">
+                    <div class="certification-badge">
+                        <img src="images/certifications.svg" alt="" class="badge-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" id="desc">
+                <h1 class="enterprise-title">Enterprise-grade security</h1>
+                <p class="description">We adhere to best-in-class security recommendations, providing solutions that
+                    align with global standards of utmost security.</p>
+                <ul class="security-features">
+                    <li>Two-Factor Authentication</li>
+                    <li>NDPR Compliant</li>
+                    <li>Guaranteed Transaction Security</li>
+                    <li>Secure Cloud Option</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5">
+        <div class="cta-section">
+            <h2>Ready to connect with us?</h2>
+            <p>Let's explore available opportunities or create bespoke solutions to serve your business needs.</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <button class="btn btn-request">REQUEST A CALL BACK</button>
+                <button class="btn btn-download">DOWNLOAD BROCHURE</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg mb-4">
+                    <h3 class="footer-heading">About Us</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Our Brands</a></li>
+                        <li><a href="#" class="footer-link">Leadership</a></li>
+                        <li><a href="#" class="footer-link">Corporate Responsibility</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">Corporate Governance</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg mb-4">
+                    <h3 class="footer-heading">Everyday Payments for Individuals</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Quickteller</a></li>
+                        <li><a href="#" class="footer-link">Quickteller Paypoint</a></li>
+                    </ul>
+
+                    <h3 class="footer-heading mt-4">Payment Solutions for SMES & Corporates</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Interswitch Collections</a></li>
+                        <li><a href="#" class="footer-link">Interswitch Disbursements</a></li>
+                        <li><a href="#" class="footer-link">Quickteller Business</a></li>
+                        <li><a href="#" class="footer-link">Interswitch Payment Gateway</a></li>
+                        <li><a href="#" class="footer-link">Mobile Financial Services</a></li>
+                        <li><a href="#" class="footer-link">Advisory Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg mb-4">
+                    <h3 class="footer-heading">Payment Cards & Tokens</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Verve Classic Card</a></li>
+                        <li><a href="#" class="footer-link">Verve Paycode</a></li>
+                        <li><a href="#" class="footer-link">Verve Prepaid Card</a></li>
+                    </ul>
+
+                    <h3 class="footer-heading mt-4">Payment Solutions for Industries</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Interswitch Health</a></li>
+                        <li><a href="#" class="footer-link">Interswitch Lending Service</a></li>
+                        <li><a href="#" class="footer-link">Interswitch Energy</a></li>
+                        <li><a href="#" class="footer-link">Interswitch Transport</a></li>
+                        <li><a href="#" class="footer-link">Loyalty Services</a></li>
+                        <li><a href="#" class="footer-link">Car Access</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg mb-4">
+                    <h3 class="footer-heading">More</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Security</a></li>
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms and Conditions</a></li>
+                        <li><a href="#" class="footer-link">Press Kit</a></li>
+                        <li><a href="#" class="footer-link">Whistle Blowing</a></li>
+                        <li><a href="#" class="footer-link">ISO Policies</a></li>
+                        <li><a href="#" class="footer-link">Developer Console</a></li>
+                        <li><a href="#" class="footer-link">Partner</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg mb-4">
+                    <h3 class="footer-heading">Footprint</h3>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2">
+                            <Image src="https://interswitchgroup.com/assets/images/home/nigeria.png" alt="" id="flag"
+                                class="rounded me-2" />
+                            <span>Nigeria</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <Image src="https://interswitchgroup.com/assets/images/home/germany.png" alt="Germany flag"
+                                id="flag" class="rounded me-2" />
+                            <span>Germany</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <Image src="https://interswitchgroup.com/assets/images/home/kenya.png" alt="Kenya flag"
+                                id="flag" class="rounded me-2" />
+                            <span>Kenya</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <Image src="https://interswitchgroup.com/assets/images/home/uganda.png" alt="Uganda flag"
+                                id="flag" class="rounded me-2" />
+                            <span>Uganda</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <Image src="https://interswitchgroup.com/assets/images/home/gambia.png" alt="Gambia flag"
+                                id="flag" class="rounded me-2" />
+                            <span>Gambia</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <Image src="https://interswitchgroup.com/assets/images/home/drc.png" alt="DRC flag"
+                                id="flag" class="rounded me-2" />
+                            <span>DRC</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom mt-4 pt-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                            <Image src="images/interswitch_logo.svg" alt="Interswitch Logo" class="me-3" />
+                            <span class="small">©️ 2002 - 2020 Interswitch Group.</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="social-links d-flex justify-content-center justify-content-md-end gap-3">
+                            <Link href="#" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                            </Link>
+                            <Link href="#" class="social-link">
+                            <i class="bi bi-twitter"></i>
+                            </Link>
+                            <Link href="#" class="social-link">
+                            <i class="bi bi-facebook"></i>
+                            </Link>
+                            <Link href="#" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                            </Link>
+                            <Link href="#" class="social-link">
+                            <i class="bi bi-youtube"></i>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <Image src="https://interswitchgroup.com/documents/img-cbn.webp" alt="CBN Logo"
+                                class="me-2" />
+                            <p class="mb-0 small">Interswitch is regulated by the Central Bank of Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
