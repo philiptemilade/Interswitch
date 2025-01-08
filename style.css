@@ -318,12 +318,14 @@ marquee a{
     padding-top: 30px;
     left: 400px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero-text-2{
     max-width: 600px;
     left: 400px;
     padding-top: 30px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero-secondary{
@@ -332,6 +334,7 @@ marquee a{
     left: 700px;
     padding-top: 30px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero-secondary-2{
     max-width: 500px;
@@ -339,6 +342,7 @@ marquee a{
     font-size: 25px;
     left: 700px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .badge-img{
@@ -402,11 +406,26 @@ marquee a{
 
 
 @media screen and (max-width:450px){
+
+    .offcanvas.show{
+        background-color: #7cb2ec;
+    }
+    
+
+    .offcanvas-body ul li {
+        padding: 20px;
+    }
+
+    .offcanvas-body  .dropdown-menu{
+        border: none;
+    }
+
     .dropend:hover > .dropdown-menu {
         position: absolute;
         top: 0;
         left: 100%;
-        margin-left: 5px;
+        margin-left: 0px;
+        display: block;
     }
     
     .wrapper{
@@ -422,6 +441,7 @@ marquee a{
         margin-top: 6%;
         color: rgb(23,66,93);
         font-size: 30px;
+        padding: 10px;
     }
     
     .feature-box p {
@@ -433,13 +453,17 @@ marquee a{
     }
     
     .feature-img {
-        width: 250px;
-        padding: 20px;}
+        width: 300px;
+        height: 300px;
+        /* left: 20px; */
+        padding-left: 10px;
+    }
 
         .row-2 h2{
             color: rgb(23,66,93);
             font-size: 30px;
             padding: 0px 60px;
+            font-family: 'Times New Roman', Times, serif;
         }
     
 
@@ -499,7 +523,7 @@ marquee a{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 1000px;
     /* display: flex;
     flex-direction:column-reverse;
    justify-content: center; */
@@ -510,16 +534,25 @@ marquee a{
 
 
 .hero-text{
-    font-size: 24px;
+    font-size: 20px;
     left: 10px;
     padding-top: 30px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:  Averta (woff2); */
+}
+.hero-title{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 15px;
 }
 .hero-text-2{
-    font-size: 24px;
+    font-size: 18px;
     left: 10px;
     padding-top: 30px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:  Averta (woff2); */
 }
 
 .hero-secondary{
@@ -527,22 +560,43 @@ marquee a{
     left: 10px;
     padding-top: 30px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero-secondary-2{
     font-size: 17px;
     left: 10px;
     padding-top: 30px;
+    padding-right: 15px;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero-subtitle{
     font-size: 15px;
+    padding-top: 7px ;
+    padding-right: 15px;
 }
 
 .hero-secondary-text{
-    font-size: 16px;
+    font-size: 22px;
     left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+
+footer {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    justify-items: center;
+    text-align: center;
+  }
+
+  #footprint{
+    text-align: center;
+    justify-items: center;
+  }
 
 }
